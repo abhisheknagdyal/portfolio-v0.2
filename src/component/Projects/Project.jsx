@@ -11,7 +11,7 @@ const Project = ({project}) =>{
                     <p className="project-disc">
                         {descirption}
                     </p>
-                    <a href={link} target="_blank" >
+                    <a href={link} target="_blank" rel="noreferrer" >
                     <div className="link">
                         <p><i class="fa-solid fa-up-right-from-square"></i> View Website</p> 
                     </div>

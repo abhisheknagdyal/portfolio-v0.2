@@ -6,7 +6,9 @@ const Navbar = ( ) =>{
             <div className="logo" style={{color:"white"}}>
                 <p>aC.</p>
             </div>
-            <div><button className="contact-me">Contact me!</button></div>
+            <div><a href="mailto:abhisheknagdyal@gmail.com">
+                <button className="contact-me">Contact me!</button>
+            </a></div>
         </div>
     );
 };

@@ -62,18 +62,16 @@ a{
     /* background-color: red; */
 }
 
-
 .image-pc img{
     height: 250px;
     max-width:auto;
     border-radius: 5px;
     /* margin-right: -200px; */
-    transition: height 1s ease;
+    transition: transform 1s ease;
 }
 
 .image-pc img:hover{
-    height: 260px;
-    max-width:auto;
+    transform: scale(110%);
 }
 
 /* .image-mobile{
@@ -106,6 +104,10 @@ a{
     .image-pc img{
         width: 280px;
         height: auto;
+    }
+
+    .image-pc img:hover{
+        transform: scale(100%);
     }
 }
 

@@ -12,10 +12,14 @@
     position: relative;
 }
 
+
+
 .face{
     height: 450px;
     width: 410px;
     background-color: white;
+    background-image: url('./abhi.png');
+    background-size: cover;
     border-radius: 15px;
     position: relative;
     z-index: 10;
@@ -24,36 +28,12 @@
 .back{
     height: 450px;
     width: 410px;
-    background-color: hsla(0, 0%, 100%, 0.04);
+    background-color: hsla(0, 0%, 100%, 0.08);
     border: 1px solid rgb(255,255,255,.1);
     border-radius: 15px;
     position: absolute;
     left: 0;
     top: 0;
-    transform: translate(35px, 35px);
-    /* animation: slideInFromLeft 1.5s ease-in; */
-}
-
-@keyframes slideInFromLeft {
-    from{
-        transform: translate(0px, 0px);
-    }
-    to{
-        transform: translate(35px, 35px);
-    }
-  }
-
-.stay-back{
-        height: 450px;
-        width: 410px;
-        background-color: hsla(0, 0%, 100%, 0.04);
-        border: 1px solid rgb(255,255,255,.1);
-        border-radius: 15px;
-        position: absolute;
-        left: 0;
-        top: 0;
-        transform: translate(40px, 40px);
-        /* animation: slideInFromLeft 1.5s ease-in; */
 }
 
 
@@ -123,5 +103,7 @@
     .about-disc p{
         font-size: 16px;
     }
+
+    
 }
 
