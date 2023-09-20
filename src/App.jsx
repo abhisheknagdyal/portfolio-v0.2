@@ -29,13 +29,6 @@ function App() {
       descirption:"Search functionality using React and Fetching data from external API",
     },
     {
-      id:4,
-      imageUrl1:"../images/nextflix.png",
-      projectName:"NextFlix",
-      link:"https://1nextflix.netlify.app",
-      descirption:"NetFlix home page clone with react and TMDB API",
-    },
-    {
       id:5,
       imageUrl1:"../images/quote-gen.png",
       projectName:"Quote Genrator",
@@ -60,7 +53,7 @@ function App() {
       id:8,
       imageUrl1:"../images/infinite.png",
       projectName:"Infinte Loader",
-      link:"https://infinteloader22.netlify.app",
+      link:"infinityloader.netlify.app",
       descirption:"Infinite image loader with Unsplash API",
     },
 
