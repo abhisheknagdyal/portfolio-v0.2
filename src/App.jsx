@@ -53,7 +53,7 @@ function App() {
       id:8,
       imageUrl1:"../images/infinite.png",
       projectName:"Infinte Loader",
-      link:"infinityloader.netlify.app",
+      link:"https://infinityloader.netlify.app",
       descirption:"Infinite image loader with Unsplash API",
     },
 
